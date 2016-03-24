@@ -1,0 +1,37 @@
+# Try to autodetect as fallback
+* text=auto
+
+#
+# Explicit settings in case Git does something stupid
+#
+
+#
+# Text files
+#
+*.conf text
+*.css text
+*.html text diff=html
+*.js text
+*.md text
+*.php text diff=php
+*.phtml text
+*.sql text
+*.tpl text
+*.txt text
+*.TXT text
+*.xml text
+
+#
+# Binary files
+#
+*.bz2 binary
+*.gif binary
+*.ico binary
+*.jar binary
+*.jpeg binary
+*.jpg binary
+*.otf binary
+*.png binary
+*.tar.* binary
+*.ttf binary
+*.TTF binary
